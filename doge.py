@@ -58,7 +58,7 @@ while True:
 
         valorNumericoUnitario= valorUnitario[0]+valorUnitario[1]+valorUnitario[2]+valorUnitario[3]
 
-        if(float(valorNumericoUnitario) >= 0.05):
+        if(float(valorNumericoUnitario) >= 15):
             server= smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
             server.login(sender_email, password)
