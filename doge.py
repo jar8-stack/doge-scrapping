@@ -2,7 +2,7 @@ import urllib
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd
+
 import smtplib
 import time
 
