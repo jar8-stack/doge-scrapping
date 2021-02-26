@@ -14,6 +14,12 @@ password= "Serranosoto1"
 message= "El doge ya alcanzo su limite puto, vende"
 
 
+server2= smtplib.SMTP('smtp.gmail.com', 587)
+server2.starttls()
+server2.login(sender_email, password)
+server2.sendmail(sender_email, rec_email, "Inicio ahora si")
+
+
 
 
 def comprobarConexion():
